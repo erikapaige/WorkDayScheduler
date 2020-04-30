@@ -88,8 +88,7 @@ if (fivePM === currentTime) {
 }
 
 // add new meetings to each time block (like the to do list)
-// document.getElementById("in9").addEventListener("click", '')
-// console.log(hi)
+$("#in9").click - cell.bs.table
 
 
 // save each timeblock to local storage, save by clicking on far right column
