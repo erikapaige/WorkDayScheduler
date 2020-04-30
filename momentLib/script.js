@@ -2,10 +2,10 @@
 document.getElementById('currentDay').innerHTML = moment().format('dddd MMMM Do')
 
 // create blocks of time from 9 AM - 6 PM
-  //3 columns with 9 rows
+  
 
 // color code meetings
-
+//for loop, set i to current time (make that value), 
 // add new meetings to each time block(like the to do list)
 
 // save each timeblock to local storage
