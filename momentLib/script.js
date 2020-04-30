@@ -86,9 +86,9 @@ if (fivePM === currentTime) {
   document.getElementById('hr17').style.background = 'rgb(119, 221, 119)'
 }
 
-// color code meetings
+// add new meetings to each time block (like the to do list)
+document.getElementById("in9").addEventListener("click", '')
+console.log(hi)
 
 
-// add new meetings to each time block(like the to do list)
-
-// save each timeblock to local storage. on the right
+// save each timeblock to local storage, save by clicking on far right column
