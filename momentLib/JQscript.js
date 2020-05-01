@@ -82,11 +82,10 @@ if (currentTime == '17') {
 // add new meetings to each time block click on the box and add an input (achieved via textarea in HTML)
 // save each timeblock to local storage, save by clicking on far right column, see individual commands by time below
 
+
 //input for 9 AM apppointment
-document.getElementById("saveApptNine").
-$("#saveApptNine").addEventListener("click")
-addEventListener("click", function () {
-  let apptInputNine = document.getElementById("apptInputNine").value
+$("#saveApptNine").onclick= function () {
+  let apptInputNine = $("#apptInputNine").value
   localStorage.setItem("apptInputNine", apptInputNine)
-})
+};
 
