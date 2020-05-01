@@ -75,16 +75,16 @@ textarea {
   transition: all .3s ease-in-out;
 }
 
-/* .my-container {
-  border: 1px solid black;
+/* .my-row {
+  border: 3px solid black;
 } */
 
-.my-row {
-  border: 3px solid black;
-}
-
 .my-col {
-  border: 3px solid black;
+  /* border: 3px solid black; */
   padding: 0px;
   margin: 0px;
 }
+
+/* .my-container {
+  border: 1px solid black;
+} */
