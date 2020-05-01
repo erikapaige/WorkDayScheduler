@@ -86,3 +86,51 @@ document.getElementById("saveApptNine").addEventListener ("click", function() {
   let apptInputNine = document.getElementById("apptInputNine").value
   localStorage.setItem("apptInputNine", apptInputNine)
 })
+
+//input for 10 AM apppointment
+document.getElementById("saveApptTen").addEventListener("click", function () {
+  let apptInputTen = document.getElementById("apptInputTen").value
+  localStorage.setItem("apptInputTen", apptInputTen)
+})
+
+//input for 11 AM apppointment
+document.getElementById("saveApptEleven").addEventListener("click", function () {
+  let apptInputEleven = document.getElementById("apptInputEleven").value
+  localStorage.setItem("apptInputEleven", apptInputEleven)
+})
+
+//input for 12PM apppointment
+document.getElementById("saveApptTwelve").addEventListener("click", function () {
+  let apptInputTwelve = document.getElementById("apptInputTwelve").value
+  localStorage.setItem("apptInputTwelve", apptInputTwelve)
+})
+
+//input for 1PM (13) apppointment
+document.getElementById("saveApptThirt").addEventListener("click", function () {
+  let apptInputThirt = document.getElementById("apptInputThirt").value
+  localStorage.setItem("apptInputThirt", apptInputThirt)
+})
+
+//input for 2PM (14) apppointment
+document.getElementById("saveApptFort").addEventListener("click", function () {
+  let apptInputFort = document.getElementById("apptInputFort").value
+  localStorage.setItem("apptInputFort", apptInputFort)
+})
+
+//input for 3PM (15) apppointment
+document.getElementById("saveApptFift").addEventListener("click", function () {
+  let apptInputFift = document.getElementById("apptInputFift").value
+  localStorage.setItem("apptInputFift", apptInputFift)
+})
+
+//input for 4PM (16) apppointment
+document.getElementById("saveApptSixt").addEventListener("click", function () {
+  let apptInputSixt = document.getElementById("apptInputSixt").value
+  localStorage.setItem("apptInputSixt", apptInputSixt)
+})
+
+//input for 5PM (17) apppointment
+document.getElementById("saveApptSevent").addEventListener("click", function () {
+  let apptInputSevent = document.getElementById("apptInputSevent").value
+  localStorage.setItem("apptInputSevent", apptInputSevent)
+})

@@ -79,12 +79,14 @@ if (currentTime == '17') {
   $("#hr17").css("background-color", "rgb(119, 221, 119)");
 }
 
-// add new meetings to each time block
-  //click on the box and add an input
-  //input to be logged to an elemeent
+// add new meetings to each time block click on the box and add an input (achieved via textarea in HTML)
+// save each timeblock to local storage, save by clicking on far right column, see individual commands by time below
 
-
-
-
-// save each timeblock to local storage, save by clicking on far right column
+//input for 9 AM apppointment
+document.getElementById("saveApptNine").
+$("#saveApptNine").addEventListener("click")
+addEventListener("click", function () {
+  let apptInputNine = document.getElementById("apptInputNine").value
+  localStorage.setItem("apptInputNine", apptInputNine)
+})
 
