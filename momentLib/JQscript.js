@@ -84,5 +84,82 @@ if (currentTime == '17') {
 
 
 //input for 9 AM apppointment
-$("#saveApptNine").on("click", function ()
-  let apptInputNine = $("#apptInputNine").innerHTML = localStorage.setItem("#apptInputNine", apptInputNine)}
+$("#saveApptNine").on("click", function (){
+  let apptInputNine = $("#apptInputNine").val()
+  localStorage.setItem("apptInputNine", apptInputNine)
+})
+
+//input for 10 AM apppointment
+$("#saveApptTen").on("click", function () {
+  let apptInputTen = $("#apptInputTen").val()
+  localStorage.setItem("apptInputTen", apptInputTen)
+})
+
+//input for 11 AM apppointment
+$("#saveApptEleven").on("click", function () {
+  let apptInputEleven = $("#apptInputEleven").val()
+  localStorage.setItem("apptInputEleven", apptInputEleven)
+})
+
+//input for 12 PM apppointment
+$("#saveApptTwelve").on("click", function () {
+  let apptInputTwelve = $("#apptInputTwelve").val()
+  localStorage.setItem("apptInputTwelve", apptInputTwelve)
+})
+
+//input for 1 PM (13) apppointment
+$("#saveApptThirt").on("click", function () {
+  let apptInputThirt = $("#apptInputThirt").val()
+  localStorage.setItem("apptInputThirt", apptInputThirt)
+})
+
+//input for 2 PM (14) apppointment
+$("#saveApptFort").on("click", function () {
+  let apptInputFort = $("#apptInputFort").val()
+  localStorage.setItem("apptInputFort", apptInputFort)
+})
+
+//input for 3 PM (15) apppointment
+$("#saveApptFift").on("click", function () {
+  let apptInputFift = $("#apptInputFift").val()
+  localStorage.setItem("apptInputFift", apptInputFift)
+})
+
+//input for 4 PM (16) apppointment
+$("#saveApptSixt").on("click", function () {
+  let apptInputSixt = $("#apptInputSixt").val()
+  localStorage.setItem("apptInputSixt", apptInputSixt)
+})
+
+//input for 5 PM (17) apppointment
+$("#saveApptSevent").on("click", function () {
+  let apptInputSevent = $("#apptInputSevent").val()
+  localStorage.setItem("apptInputSevent", apptInputSevent)
+})
+
+//saving 9 AM
+$("#apptInputNine").html(localStorage.getItem("apptInputNine"))
+
+//saving 10 AM
+$("#apptInputTen").html(localStorage.getItem("apptInputTen"))
+
+//saving 11 AM
+$("#apptInputEleven").html(localStorage.getItem("apptInputEleven"))
+
+//saving 12 PM 
+$("#apptInputTwelve").html(localStorage.getItem("apptInputTwelve"))
+
+//saving 1 PM (13)
+$("#apptInputThirt").html(localStorage.getItem("apptInputThirt"))
+
+//saving 2 PM (14)
+$("#apptInputFort").html(localStorage.getItem("apptInputFort"))
+
+//saving 3 PM (15)
+$("#apptInputFift").html(localStorage.getItem("apptInputFift"))
+
+//saving 4 PM (16)
+$("#apptInputSixt").html(localStorage.getItem("apptInputSixt"))
+
+//saving 5 PM (17)
+$("#apptInputSevent").html(localStorage.getItem("apptInputSevent"))
