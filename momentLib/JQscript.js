@@ -84,9 +84,5 @@ if (currentTime == '17') {
 
 
 //input for 9 AM apppointment
-$("#saveApptNine").onclick= function () {
-  localStorage.setItem()
-  // let apptInputNine = $("#apptInputNine").value
-  // setItem("apptInputNine", apptInputNine)
-};
-
+$("#saveApptNine").on("click", function ()
+  let apptInputNine = $("#apptInputNine").innerHTML = localStorage.setItem("#apptInputNine", apptInputNine)}

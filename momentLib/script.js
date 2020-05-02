@@ -134,3 +134,32 @@ document.getElementById("saveApptSevent").addEventListener("click", function () 
   let apptInputSevent = document.getElementById("apptInputSevent").value
   localStorage.setItem("apptInputSevent", apptInputSevent)
 })
+
+//saving inputs by the hour
+
+//saving 9 AM
+document.getElementById("apptInputNine").innerHTML = localStorage.getItem("apptInputNine")
+
+//saving 10 AM
+document.getElementById("apptInputTen").innerHTML = localStorage.getItem("apptInputTen")
+
+//saving 11 AM
+document.getElementById("apptInputEleven").innerHTML = localStorage.getItem("apptInputEleven")
+
+//saving 12 PM
+document.getElementById("apptInputTwelve").innerHTML = localStorage.getItem("apptInputTwelve")
+
+//saving 1 PM (13)
+document.getElementById("apptInputThirt").innerHTML = localStorage.getItem("apptInputThirt")
+
+//saving 2 PM (14)
+document.getElementById("apptInputFort").innerHTML = localStorage.getItem("apptInputFort")
+
+//saving 3 PM (15)
+document.getElementById("apptInputFift").innerHTML = localStorage.getItem("apptInputFift")
+
+//saving 4 PM (16)
+document.getElementById("apptInputSixt").innerHTML = localStorage.getItem("apptInputSixt")
+
+//saving 5 PM (17)
+document.getElementById("apptInputSevent").innerHTML = localStorage.getItem("apptInputSevent")
